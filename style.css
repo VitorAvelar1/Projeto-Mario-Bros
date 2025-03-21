@@ -19,5 +19,27 @@ button {
 }
 
 body {
+    height: 100vh;
+}
+
+.caixa-mae {
     display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 100px;
+    justify-content: space-around;
+}
+
+.container1 {
+    width: 40%;
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video {
+    width: 100vw;
 }
