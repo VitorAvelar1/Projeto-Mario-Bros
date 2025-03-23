@@ -115,6 +115,7 @@ p {
     border-radius: 5px;
     top: 30%;
     left: -300px;
+    transition: left 1s ease-in-out;
 }
 
 input {
@@ -135,9 +136,11 @@ textarea {
 }
 
 .mascara-formulario {
+    visibility: hidden;
     position: fixed;
     top: 0;
     height: 100vh;
     width: 100vw;
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 1s ease-in-out;
 }
